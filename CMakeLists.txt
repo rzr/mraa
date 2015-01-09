@@ -109,9 +109,5 @@ if (IPK)
   include (CPack)
 endif()
 
-if (NOT DEFINED LIB_INSTALL_DIR)
-set (LIB_INSTALL_DIR lib${LIB_SUFFIX})
-endif ()
-
 add_subdirectory (src)
 add_subdirectory (examples)
