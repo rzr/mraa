@@ -57,7 +57,11 @@ macro (mraa_CREATE_INSTALL_PKGCONFIG generated_file install_location)
 endmacro (mraa_CREATE_INSTALL_PKGCONFIG)
 mraa_create_install_pkgconfig (mraa.pc lib${LIB_SUFFIX}/pkgconfig)
 
+#<<<<<<< HEAD
 install(TARGETS mraa DESTINATION ${CMAKE_INSTALL_LIBDIR})
+#=======
+#install (TARGETS mraa LIBRARY DESTINATION ${LIB_INSTALL_DIR}/)
+#>>>>>>> 1a3a965... install: make possible to change lib's path
 
 if (DOXYGEN_FOUND)
   set (CMAKE_SWIG_FLAGS -DDOXYGEN=${DOXYGEN_FOUND})
