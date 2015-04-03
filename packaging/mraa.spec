@@ -1,5 +1,5 @@
 Name:           mraa
-Version:        0.6.0
+Version:        0.6.1
 Release:        0
 License:        MIT
 Summary:        Low Level Skeleton Library for Communication
