@@ -1,5 +1,5 @@
 Name:           mraa
-Version:        0.5.4
+Version:        0.9.0
 Release:        0
 License:        MIT
 Summary:        Low Level Skeleton Library for Communication
@@ -10,6 +10,7 @@ Source:         %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  fdupes
+BuildRequires:  python
 
 %description
 C/C++ library with bindings to javascript & python to interface
