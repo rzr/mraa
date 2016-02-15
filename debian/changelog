@@ -1,0 +1,5 @@
+mraa (0.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Philippe Coval <philippe.coval@osg.samsung.com>  Mon, 15 Feb 2016 12:35:21 +0100
